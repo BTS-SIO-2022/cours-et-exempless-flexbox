@@ -1,0 +1,35 @@
+.conteneur-flexible {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 20px 0;
+    display: flex;
+    justify-content: ;
+}
+
+.item-flexible {
+    width: 40%;
+    height: 40%;
+    background-color: greenyellow;
+    border: 2px solid green;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.colonne {
+    flex-direction: column;
+}
+
+.ligne {
+    flex-direction: row;
+}
+
+.colonne-inverse {
+    flex-direction: column-reverse;
+}
+
+.ligne-inverse {
+    flex-direction: row-reverse;
+}
